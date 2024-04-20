@@ -12,6 +12,13 @@
         public function get_name(){
             return $this->name;
         }
+
+        public function set_color($color){
+            $this->color = $color;
+        }
+        public function get_color(){
+            return $this->color;
+        }
     }
 
     // Create a new Fruits object
@@ -22,6 +29,11 @@
     $apple->set_name("Apple");
 
     echo $banana->get_name();
+    echo PHP_EOL;
+
+    $red = new Fruits();
+    $red->set_color("Red");
+    echo $red->get_color();
 
 
 
