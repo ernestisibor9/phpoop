@@ -34,6 +34,8 @@
     $red = new Fruits();
     $red->set_color("Red");
     echo $red->get_color();
+    echo PHP_EOL;
+    echo $red->color;
 
 
 
